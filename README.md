@@ -61,40 +61,17 @@ CI-CD-using-Docker/
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/CI-CD-using-Docker.git
-cd CI-CD-using-Docker
-
 2. Build the Project
 
-mvn clean package
-
 3. Run the Services with Docker Compose
-A. Tomcat Only
-
-docker-compose -f docker-compose_tomcat.yml up --build
 
 B. Tomcat + MySQL + phpMyAdmin
-
-docker-compose -f docker-compose_mysql_phpMyAdmin.yml up --build
 
 🌐 Accessing the Application
 
     Web App: http://localhost:8080/
 
     phpMyAdmin (optional): http://localhost:8081/
-
-📺 Demo & Blog
-
-    📹 YouTube Video: CI/CD using Jenkins and Docker
-
-    📝 Blog Post: CI/CD with Jenkins and Docker - DevOps4Solutions
-
-🙏 Acknowledgements
-
-This project is inspired by DevOps4Solutions.
-Special thanks for the original tutorial and walkthrough.
-📄 License
 
 This project is open source and available under the MIT License.
 🤝 Contributing
@@ -104,4 +81,4 @@ Feel free to fork this repository and submit a pull request. Contributions, issu
 
 ---
 
-If you'd like me to include dynamic badges (e.g., GitHub stars, DockerHub pulls,
+If you'd like me to include dynamic badges (e.g., GitHub stars, DockerHub pulls)
