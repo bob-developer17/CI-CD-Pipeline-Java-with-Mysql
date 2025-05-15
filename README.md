@@ -18,23 +18,6 @@ This project sets up a complete CI/CD (Continuous Integration and Continuous Dep
 
 ---
 
-## 📂 Project Structure
-
-CI-CD-using-Docker/
-├── Dockerfile # Builds Docker image for the Java app
-├── Jenkinsfile # Jenkins pipeline definition
-├── docker-compose.yml # Base compose file
-├── docker-compose_mysql.yml # MySQL service
-├── docker-compose_mysql_phpMyAdmin.yml # MySQL + phpMyAdmin services
-├── docker-compose_tomcat.yml # Tomcat container for deployment
-├── pom.xml # Maven project config
-├── index.html # Static index page
-├── mysql-dump/ # DB dump/init scripts
-├── src/ # Java source code
-└── target/ # Compiled code (generated)
-
-
----
 
 ## 🚀 CI/CD Workflow Overview
 
